@@ -1,0 +1,13 @@
+{
+  "name": "lab-computacao-distribuida",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest"
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y openmpi-bin libopenmpi-dev figlet net-tools iputils-ping",
+  "hostRequirements": {
+    "cpus": 2
+  }
+}
