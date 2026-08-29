@@ -2,11 +2,6 @@
 
 Docker + Ubuntu + OpenMPI. Prof. Alcides / Prof. Mario.
 
-## Como abrir
-
-Abrir este repositório em um Codespace (botão Code > Codespaces > Create codespace on main).
-O Codespace já sobe com Docker, OpenMPI e figlet instalados.
-
 ## Parte 1 - MPI local
 
 ```bash
